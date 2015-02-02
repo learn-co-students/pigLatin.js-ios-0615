@@ -48,7 +48,7 @@ pigLatin('thrice')
 If the string contains multiple words, translate each word separately:
 
 ```javascript
-pigLatin('we are the change that we seek")
+pigLatin('we are the change that we seek')
 // => 'eway areay theay angechay atthey eway eeksay'
 ```
 
