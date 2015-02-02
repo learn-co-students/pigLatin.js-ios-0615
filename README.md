@@ -4,18 +4,8 @@ tags: strings, substitution
 ---
 
 # Pig Latin
-## Getting Started
 
-Run `npm install`
-
-## Tests
-
-Review the `pigLatin.js` file inside the `lib` directory, and then the `pigLatin.spec.js` file inside the `spec` directory. Review each of the tests, and then start implementing your solutions to make each test pass in `pigLatin.js`.
-
-
-Run `grunt watch` then edit your files. Grunt will watch for changes. Grunt
-will only run tests that start with `it`. When you finish passing a test,
-remove the `x` from `xit` to convert it to a runnable test.
+![smart pig photo](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/js-vowels/pig-latin.jpg)
 
 ## Background
 
@@ -26,4 +16,47 @@ Pig Latin is a made-up children's language that's intended to be confusing. It o
 
 There are a few more rules for edge cases, and there are regional variants too.
 
-See <http://en.wikipedia.org/wiki/Pig_latin> for more details.
+See [this Wikipedia article](http://en.wikipedia.org/wiki/Pig_latin) for more details.
+
+## Objectives
+
+Create a function, `pigLatin`, that turns a string in English into Pig Latin. It should behave as seen in the examples below.
+
+## Examples
+
+If the string starts with a vowel, just add "ay" to the end of the string:
+
+```javascript
+pigLatin('apple')
+// => 'appleay'
+```
+
+If the string starts with a consonant, move the consonant to the end and add "ay":
+
+```javascript
+pigLatin('jiffy')
+// => 'iffyjay'
+```
+
+If the string starts two or more consonants, move them to the end then add "ay":
+
+```javascript
+pigLatin('thrice')
+// => 'icethray'
+```
+
+If the string contains multiple words, translate each word separately:
+
+```javascript
+pigLatin('we are the change that we seek")
+// => 'eway areay theay angechay atthey eway eeksay'
+```
+
+## Instructions
+
+Run your testing suite to get started.
+
+## Resources
+
+* [Wikipedia](http://en.wikipedia.org/) - [Pig Latin](http://en.wikipedia.org/wiki/Pig_latin) 
+* [MDN JavaScript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/) - [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
