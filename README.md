@@ -1,8 +1,3 @@
----
-languages: javascript
-tags: strings, substitution
----
-
 # Pig Latin
 
 ![smart pig photo](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/js-vowels/pig-latin.jpg)
