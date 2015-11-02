@@ -3,3 +3,4 @@ languages:
 tags:
   - strings
   - substitution
+resources: 2
