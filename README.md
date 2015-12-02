@@ -55,3 +55,5 @@ Run your testing suite to get started.
 
 * [Wikipedia](http://en.wikipedia.org/) - [Pig Latin](http://en.wikipedia.org/wiki/Pig_latin) 
 * [MDN JavaScript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/) - [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+<a href='https://learn.co/lessons/pigLatin.js' data-visibility='hidden'>View this lesson on Learn.co</a>
